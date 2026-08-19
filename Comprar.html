@@ -7,38 +7,61 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <header>
+        <div>
+            <a href="Index.html"><img src="images/logo.png" alt="logo"></a>
+            <h2>Music Core</h2>
+            <nav>
+                <ul>
+                    <li><a href="Historia.html">Nuestra Historia</a></li>
+                    <li><a href="IniciarSesion.html">Iniciar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main>
-        <p><a href="Index.html">Volver al inicio</a></p>
-        <img src="images/Comprar.png" alt="Comprar">
-        <form>
-            <div>
-                <label>Nombre</label>
-                <input type="text">
-                <label>Apellido</label>
-                <input type="text">
+        <section class="PaginaComprar">
+            <div class="ContenedorMitad">
+                <img src="images/Comprar.png" alt="Comprar">
             </div>
-            <div>
-                <label>Ciudad</label>
-                <input type="text">
+            <div class="ContenedorMitad">
+                <form>
+                    <div class="ContenedorDobleForm">
+                        <div class="Input">
+                            <label>Nombre</label>
+                            <input type="text">
+                        </div>
+                        <div class="Input">
+                            <label>Apellido</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="Input">
+                        <label>Ciudad</label>
+                        <input type="text">
+                    </div>
+                    <div class="ContenedorDobleForm">
+                        <div class="Input">
+                            <label>Domicilio</label>
+                            <input type="text">
+                        </div>
+                        <div class="Input">
+                            <label>Código postal</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="Input">
+                        <label>Tarjeta de credito</label>
+                        <input type="text">
+                    </div>    
+                        <label>
+                            <input type="checkbox">
+                            He leído la política de privacidad y los términos y condiciones
+                        </label>
+                    <button>Comprar</button>
+                </form>
             </div>
-            <div>
-                <label>Domicilio</label>
-                <input type="text">
-                <label>Código postal</label>
-                <input type="text">
-            </div>
-            <div>
-                <label>Tarjeta de credito</label>
-                <input type="text">
-            </div>
-            <div>    
-                <label>
-                    <input type="checkbox">
-                    He leído la política de privacidad y los términos y condiciones
-                </label>
-            </div>
-            <button>Comprar</button>
-        </form>
+        </section>
     </main>
     <footer>
         <div>
