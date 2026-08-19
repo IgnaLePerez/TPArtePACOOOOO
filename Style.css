@@ -99,8 +99,8 @@ main div section{
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .Presentacion div{
@@ -130,23 +130,116 @@ main div section{
     background-color: rgb(26, 26, 26);
     border-radius: 12px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40% 45%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
     padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.Punteo img{
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 34%;
+.Punteo .imagen img{
+    width: 100%;
 }
 
-.Punteo div p{
+.Punteo p{
     color: rgb(239, 239, 239);
 }
 
-.Punteo div h3{
-    color: rgb(239, 239, 239);
+.Punteo h3{
+    color: #784796;
     font-size: 80px;
+}
+
+.Punteo div div{
+    width: 60%;
+    border: solid #784796 1px;
+    background: #212121;
+    border-radius: 12px;
+    padding: 2%;
+    box-shadow: -14px 13px 20px 0px #00000059;
+}
+
+.Punteo .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Punteo .imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.comprar{
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comprar img{
+    width: 60%;
+}
+
+.comprar a{
+    width: 10%;
+    height: 5vh;
+}
+
+.comprar a button{
+    background-color:#212121;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+footer{
+    width: 94%;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 3%;
+    background-color: #212121;
+    border-radius: 12px;
+}
+
+footer p{
+    color: white;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer div:last-child{
+    align-items: center;
+}
+
+footer div div{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+footer div div img{
+    width: 20%;
+}
+
+footer div div p{
+    margin-left: 10%;
 }
