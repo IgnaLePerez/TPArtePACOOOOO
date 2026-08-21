@@ -286,14 +286,14 @@ footer div div p{
 .PaginaComprar div form{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     background-color: rgb(26, 26, 26);
     border: solid #784796 1px;
-    padding: 4%;
+    padding: 3%;
     border-radius: 12px;
     box-shadow: -14px 13px 20px 0px #00000059;
     justify-content: space-between;
-    height: 40vh;
+    height: 42vh;
 }
 
 .PaginaComprar div form label{
@@ -307,27 +307,24 @@ footer div div p{
 }
 
 .PaginaComprar div form .ContenedorDobleForm .Input{
-    width: 49%;
+    width: 48%;
 }
 
 .PaginaComprar div form .Input{
     width: 100%;
     display: flex;
     flex-flow: column;
-    margin: 1%;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 
 .PaginaComprar div form .Input input{
-    height: 3vh;
+    height: 4vh;
     border-radius: 4px;
     border: 1px solid #663c80;
     background-color:#e2e2e2;
 }
 
 .PaginaComprar div form button{
-    height: 3vh;
+    height: 4vh;
     border: 1px solid #663c80;
     background-color:#784796;
     color: #212121;
