@@ -45,7 +45,7 @@ header div a:hover{
 }
 
 header div nav{
-    width: 35%;
+    width: 27%;
 }
 
 header div nav ul{
@@ -57,7 +57,7 @@ header div nav ul{
 
 header div nav ul li{
     list-style: none;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     align-items: center;
     border-radius: 7px;
@@ -451,4 +451,53 @@ footer div div p{
 .Productos div button{
     width: 100%;
     height: 3vh;
+}
+
+.Login
+{
+height: 80vh;
+}
+
+.Login h1
+{
+    text-align: center;
+}
+
+.Login form
+{
+    border-radius: 20px;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 17%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
+.CentrarForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.Login .CentrarForm form div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3%;
+}
+
+.Login .CentrarForm form div input
+{
+width: 100%;
+}
+
+.Login button
+{
+    background-color: #663c80;
+    height: 3vh;
+    width: 100%;
+    color: white;
 }
